@@ -1,0 +1,97 @@
+/* general styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Designing the header */
+header{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    padding: 1rem;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+}
+
+header .logo{
+    height: 2rem;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+/* styling the nav bar */
+header nav{
+    display: flex;
+    column-gap: 25px;
+    font-weight: 600;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+
+
+/* styling the call-to-action button */
+header>a{
+    text-decoration: none;
+    justify-self: end;
+    padding: 10px 12px;
+    font-size: small;
+    background-color: #5955B3;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* designing the main section */
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    padding-top: 6vh;
+}
+
+main div.left{
+    width: 50%;
+}
+
+main div.left h1{
+    width: 80%;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #3D2F60;
+}
+
+main div.left h1 span{
+    color: #5955B3;
+}
+
+main div.left p{
+    font-weight: 300;
+    margin: 5px 0 20px;
+}
+
+main div.left a{
+    text-decoration: none;
+    justify-self: end;
+    padding: 10px 14px;
+    font-size: small;
+    background-color: #5955B3;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+main div.right img{
+    height: 80vh;
+}
